@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<link href="C:\Users\PC\Documents\SEM 2 NEW\CSS\home.css" rel="stylesheet" type="home/css">
+<script src="js/jquery-1.11.2.min.js" type="text/javascript"></script>
+<script>
+	$(document).ready(function(){
+		$("#navbar_list_k12").hover(function(){
+			$("#dropdown").slideDown();
+		});
+		
+		$("#dropdown").hover(function(){
+			$(this).css('display', 'block');
+		});
+		
+		$("#dropdown").mouseleave(function(){
+			$(this).slideUp();
+		});
+	});
+</script>
+<head>
+<style>
+</style>
+</head>
+
+<body>
+<div id="header">
+	<img class="cover_photo" src="C:\Users\PC\Documents\SEM 2 NEW\IMAGES\TopH.jpg"></img>
+</div>
+<div id="navbar">
+	<ul id="navbar_list">
+		<li id="navbar_list_home" onClick="location.href='home.html'">HOME</li>
+		<li id="navbar_list_k12" onClick="location.href='K12.html'">K12</li>
+	</ul>
+</div>
+<div id="dropdown">
+	<ul id="dropdown_ul">
+		<li onclick="location.href='Features.html'">Features</li>
+		<li onClick="location.href='Implementation.html'">Implementation</li>
+		<li onClick="location.href='Curriculum.html'">Curriculum</li>
+		<li onClick="location.href='Faqs.html'">Faqs</li>
+		<li onclick="location.href='Ra10533.html'">Ra10533</li>
+		<li onClick="location.href='Contact.html'">Contact us</li>
+		<li onClick="location.href='Reference.html'">Reference</li>
+	</ul>
+</div>
+<div id="content">
+<div id="main">
+<div id="implementation" class="container-content custom">
+
+    <div class="row">
+    <div class="twelve columns">
+			<div class="row">
+				<div class="twelve columns anchorLink t250">
+	            	<h2>Implementation and Transition Management</h2>
+<h4>Implementation</h4>
+<p><img class="alignnone  wp-image-108440" src="C:\Users\PC\Documents\SEM 2 NEW\IMAGES\k12-table1.png" alt="" width="100%" height="300" /></p>
+<p>&nbsp;</p>
+<p>Program implementation in public schools is being done in phases starting SY 2012-2013. Grade 1 entrants in SY 2012-2013 are the first batch to fully undergo the program, and current 1st year Junior High School students (or Grade 7) are the first to undergo the enhanced secondary education program. To facilitate the transition from the existing 10-year basic education to 12 years, DepEd is also implementing the SHS and SHS Modeling.</p>
+<h4>Transition for Private Schools</h4>
+<p><img class="alignnone  wp-image-108431" src="C:\Users\PC\Documents\SEM 2 NEW\IMAGES\k12-table2.png" alt="" width="100%" height="450" /></p>
+<p>&nbsp;</p>
+<p>Private schools craft their transition plans based on: (1) current/previous entry ages for Grade 1 and final year of Kinder, (2) duration of program , and most importantly, (3) content of curriculum offered.</p>
+
+               
+                   
+
+                </div>
+			</div>
+    </div>
+	</div>
+</div>
+
+
+</div>
+<br><br><br><br><br>
+<p><a href="#top" class="small secondary button anchorLink">Back to top</a></p> 
+</div>
+
+
+</body>
+</html>

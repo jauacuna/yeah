@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="C:\Users\PC\Documents\SEM 2 NEW\CSS\home.css" rel="stylesheet" type="home/css">
+		<script src="js/jquery-1.11.2.min.js" type="text/javascript"></script>
+		<script>
+			$(document).ready(function(){
+				$("#navbar_list_k12").hover(function(){
+					$("#dropdown").slideDown();
+				});
+				
+				$("#dropdown").hover(function(){
+					$(this).css('display', 'block');
+				});
+				
+				$("#dropdown").mouseleave(function(){
+					$(this).slideUp();
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div id="header">
+			<img class="cover_photo" src="C:\Users\PC\Documents\SEM 2 NEW\IMAGES\TopH.jpg"></img>
+		</div>
+		<div id="navbar">
+			<ul id="navbar_list">
+				<li id="navbar_list_home" onClick="location.href='home.html'">HOME</li>
+				<li id="navbar_list_k12" onClick="location.href='K12.html'">K12</li>
+			</ul>
+		</div>
+		<div id="dropdown">
+			<ul id="dropdown_ul">
+		<li onclick="location.href='Features.html'">Features</li>
+		<li onClick="location.href='Implementation.html'">Implementation</li>
+		<li onClick="location.href='Curriculum.html'">Curriculum</li>
+		<li onClick="location.href='Faqs.html'">Faqs</li>
+		<li onclick="location.href='Ra10533.html'">Ra10533</li>
+		<li onClick="location.href='Contact.html'">Contact us</li>
+		<li onClick="location.href='Reference.html'">Reference</li>
+	</ul>
+		</div>
+
+		<div id="content">
+			<div id="main">
+				<div id="about" class="container-content custom">
+
+    <div class="row">
+    <div class="twelve columns">
+			<div class="row">
+				<div class="twelve columns anchorLink t250">
+	            	<h2>What is the K to 12 Program?</h2>
+<p>The K to 12 Program covers <strong>Kindergarten and 12 years of basic education (six years of primary education, four years of Junior High School, and two years of Senior High School [SHS])</strong> to provide sufficient time for mastery of concepts and skills, develop lifelong learners, and prepare graduates for tertiary education, middle-level skills development, employment, and entrepreneurship.</p>
+<p style="text-align: center;"><img class="aligncenter  wp-image-107340" src="C:\Users\PC\Documents\SEM 2 NEW\IMAGES\K12.png" alt="" width="940" height="275" /></p>
+<p>&nbsp;</p>
+      
+                </div>
+			</div>
+    </div>
+	</div>
+</div>
+			</div>
+		</div>
+		
+	</body>
+</html>
